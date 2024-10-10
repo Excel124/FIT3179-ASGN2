@@ -1,13 +1,4 @@
-Year,"Perkhidmatan penginapan
-Accommodation services","Perkhidmatan penyediaan makanan dan minuman
-Food and beverage serving services","Perkhidmatan pengangkutan penumpang 
-Passenger transport services","Perkhidmatan agensi pengembaraan dan penempahan lain 
-Travel agencies and other reservation services","Perkhidmatan kebudayaan sukan dan rekreasi
-Cultural sports and recreational services","Jualan runcit bahan api kenderaan
-Retail sale of automotive fuel","Barang khusus bercirikan pelancongan negara
-Country-specific tourism characteristic goods","Perkhidmatan khusus bercirikan pelancongan negara 
-Country-specific tourism characteristic services","Jumlah
-Total",source_file
+Year,"Accommodation services","Food and beverage serving services","Passenger transport services","Travel agencies and other reservation services","Cultural sports and recreational services","Retail sale of automotive fuel","Country-specific tourism characteristic goods"," Country-specific tourism characteristic services","Total",source_file
 2015,6133.3,6295.7,3985.3,994.9,485.4,9197.3,8464.2,1948.3,37504.5,transposed_cleaned_Domestic tourism expenditure of tourist by products.csv
 2016,6598.3,6813.8,4338.2,1255.9,496.3,8535.3,10714.3,2056.5,40808.4,transposed_cleaned_Domestic tourism expenditure of tourist by products.csv
 2017,7164.1,7449.2,4629.4,1274.9,560.6,9109.0,14064.5,2019.4,46271.1,transposed_cleaned_Domestic tourism expenditure of tourist by products.csv
