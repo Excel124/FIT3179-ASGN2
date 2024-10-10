@@ -1,25 +1,22 @@
-    var vg_1 = "malaysia_map.json";
-    var vg_2 = "tourist_arrivals.json";
-    var vg_3 = "top_source_countries.json";
-    var vg_4 = "tourism_revenue.json";
-    var vg_5 = "popular_activities.json";
 
-    vegaEmbed("#vis1", vg_1).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
 
-    vegaEmbed("#vis2", vg_2).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+// Vega-Lite specifications for each chart
+var spec_map = "map.json";
+var spec_bar = "heatmap.json";
+var spec_pie = "piechart.json";
+var spec_line = "barchart.json";
+var spec_stacked = "stacked area.json";
 
-    vegaEmbed("#vis3", vg_3).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+// Function to embed charts
+function embedChart(spec, elementId) {
+    vegaEmbed(elementId, spec, {actions: false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
+}
 
-    vegaEmbed("#vis4", vg_4).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-
-    vegaEmbed("#vis5", vg_5).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+// Embed all charts
+embedChart(spec_map, "#map_chart");
+embedChart(spec_bar, "#bar_chart");
+embedChart(spec_pie, "#pie_chart");
+embedChart(spec_line, "#line_chart");
+embedChart(spec_stacked, "#stacked_bar_chart");
